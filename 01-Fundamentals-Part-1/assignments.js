@@ -29,7 +29,7 @@ console.log("Does " + country + " have more population than Finland?  " + (popul
 let averagePopulation = 33000000;
 console.log("Does " + country + " have less people than the avarage country ? " + (population < averagePopulation));
 
-const description = country + " is in " + continent + ", and its " + population + " million people speak " + language + ".";
+const description = `${country} is in ${continent}, and it's ${population} million people speak ${language}.`;
 console.log(description);
 
 //Coding challege 1 - operator precedence BMI
@@ -47,3 +47,4 @@ console.log("John's BMI: " + BMIJohn);
 
 const markHeigherBMI = BMIMark > BMIJohn;
 console.log("Does Mark have higher BMI than John's? " + markHeigherBMI);
+

@@ -33,17 +33,17 @@ const description = country + " is in " + continent + ", and its " + population 
 console.log(description);
 
 //Coding challege 1 - operator precedence BMI
-let massMark = 40;
-let heightMark = 1.60;
+const massMark = 40;
+const heightMark = 1.60;
 
-let massJohn = 50;
-let heightJohn = 1.63;
+const massJohn = 50;
+const heightJohn = 1.63;
 
-let BMIMark = massMark / (heightMark * heightMark);
-let BMIJohn = massJohn / (heightJohn * heightJohn);
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
 
 console.log("Mark's BMI: " + BMIMark);
 console.log("John's BMI: " + BMIJohn);
 
-let markHeigherBMI = BMIMark > BMIJohn;
+const markHeigherBMI = BMIMark > BMIJohn;
 console.log("Does Mark have higher BMI than John's? " + markHeigherBMI);

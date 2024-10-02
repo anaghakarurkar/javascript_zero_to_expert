@@ -32,3 +32,18 @@ console.log("Does " + country + " have less people than the avarage country ? " 
 const description = country + " is in " + continent + ", and its " + population + " million people speak " + language + ".";
 console.log(description);
 
+//Coding challege 1 - operator precedence BMI
+let massMark = 40;
+let heightMark = 1.60;
+
+let massJohn = 50;
+let heightJohn = 1.63;
+
+let BMIMark = massMark / (heightMark * heightMark);
+let BMIJohn = massJohn / (heightJohn * heightJohn);
+
+console.log("Mark's BMI: " + BMIMark);
+console.log("John's BMI: " + BMIJohn);
+
+let markHeigherBMI = BMIMark > BMIJohn;
+console.log("Does Mark have higher BMI than John's? " + markHeigherBMI);

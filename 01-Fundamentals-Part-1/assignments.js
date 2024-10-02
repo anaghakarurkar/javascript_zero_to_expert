@@ -27,7 +27,7 @@ let finlandPopulation = 6000000;
 console.log("Does " + country + " have more population than Finland?  " + (population > finlandPopulation));
 
 let averagePopulation = 33000000;
-console.log("Does " + country + " have less people than the avarage country ? " + (population < averagePopulation));
+console.log(`Does ${country} have less people than the avarage country ?  ${population < averagePopulation}`);
 
 const description = `${country} is in ${continent}, and it's ${population} million people speak ${language}.`;
 console.log(description);
@@ -45,6 +45,9 @@ const BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log("Mark's BMI: " + BMIMark);
 console.log("John's BMI: " + BMIJohn);
 
-const markHeigherBMI = BMIMark > BMIJohn;
-console.log("Does Mark have higher BMI than John's? " + markHeigherBMI);
-
+if(BMIMark > BMIJohn) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+}
+else {
+    console.log(`John's  BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
+}

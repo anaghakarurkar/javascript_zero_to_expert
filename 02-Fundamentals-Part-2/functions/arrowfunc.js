@@ -5,7 +5,7 @@ const calculateAge = function (birthYear) {
 } 
 const retirementAge = (birthYear, name) => {
     const age = calculateAge(birthYear);
-    return `Hello ${name}, your age is ${age}, and you have ${65-age} years left for retirement.`;
+    return `Hello ${name}, your age is ${age}, and you have ${65 - age} years left for retirement.`;
 }
 
 const retirementDetails = retirementAge(1978, "Anagha");

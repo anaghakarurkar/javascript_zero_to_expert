@@ -1,6 +1,6 @@
 //Coding challege 1 - operator precedence BMI
 const massMark = 40;
-const heightMark = 1.60;
+const heightMark = 1.6;
 
 const massJohn = 50;
 const heightJohn = 1.63;
@@ -11,9 +11,8 @@ const BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log("Mark's BMI: " + BMIMark);
 console.log("John's BMI: " + BMIJohn);
 
-if(BMIMark > BMIJohn) {
-    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
-}
-else {
-    console.log(`John's  BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
+if (BMIMark > BMIJohn) {
+  console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+} else {
+  console.log(`John's  BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
 }

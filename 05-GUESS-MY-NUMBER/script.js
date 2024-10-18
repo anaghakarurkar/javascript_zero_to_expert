@@ -18,12 +18,11 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.number').textContent = secretNumber;
     document.querySelector('.number').style.width = '30rem';
     updateHighScore();
-  } else if (enteredNumber > secretNumber) {
-    updateMessage('To High');
+  } else if (enteredNumber !== secretNumber) {
     updateScore();
-  } else if (enteredNumber < secretNumber) {
-    updateMessage('To Low');
-    updateScore();
+    enteredNumber > secretNumber
+      ? updateMessage('To High')
+      : updateMessage('To Low');
   }
 });
 
